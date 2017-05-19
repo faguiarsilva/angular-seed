@@ -1,0 +1,61 @@
+<div class="col-md-12">
+    <h2>Formulário para preenchimento</h2>
+    <form name='cadastro'>
+        <div class="col-md-6">
+            <label for="tipoPessoaFisica" data-required="true" >
+                <span>Pessoa Física</span>
+             </label>
+             <input type="radio" name="tipoPessoaFisica" checked="false">
+        </div>
+        <div class="col-md-6">
+            <label for="tipoPessoaJuridica" data-required="true" >
+                <span>Pessoa Juridica</span>
+             </label>
+             <input type="radio" name="tipoPessoaJuridica" checked="false">
+        </div> 
+        <!-- Pessoa Fisica -->
+        <div class="col-md-12">  
+            <div class="col-md-12">
+                <label for="cpf" data-requeride="true">
+                    <span>CPF</span>
+                </label>
+                <input type="tel"  placeholder="Digite" name="cpf" id="cpf" required="true">
+            </div>
+            <div class="col-md-12">
+                <label for="nomePessoa" data-requeride="true">
+                    <span>Nome</span>
+                </label>
+                <input type="text"  placeholder="Digite o nome" name="nomePessoa" id="nomePessoa" required="true">
+            </div>    
+            <div class="col-md-12">
+                <label for="apelidoPessoa" data-requeride="true">
+                    <span>Apelido</span>
+                </label>
+                <input type="text"  placeholder="Digite o nome" name="apelidoPessoa" id="apelidoPessoa" required="true">
+            </div>    
+
+        <!-- Pessoa Juridica -->
+        <div class="col-md-12">  
+            <div class="col-md-12">
+                <label for="cpf" data-requeride="true">
+                    <span>CNPJ</span>
+                </label>
+                <input type="tel"  placeholder="Digite" name="cnpj" id="cnpj" required="true">
+            </div>
+            <div class="col-md-12">
+                <label for="nomeEmpresa" data-requeride="true">
+                    <span>Nome Empresa</span>
+                </label>
+                <input type="text"  placeholder="Digite o nome" name="nomeEmpresa" id="nomeEmpresa" required="true">
+            </div>    
+            <div class="col-md-12">
+                <label for="nomeFantasia" data-requeride="true">
+                    <span>Nome Fantasia</span>
+                </label>
+                <input type="text"  placeholder="Digite o nome" name="nomeFantasia" id="nomeFantasia" required="true">
+            </div> 
+
+
+        </div>          
+    </form>
+</div>
